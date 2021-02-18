@@ -335,6 +335,56 @@
     </div>
 </section>
     </main>
+    
+<!--backdrop-->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+            <svg class="close-button-icon">
+                <use href="./symbol-defs.svg#"></use>
+            </svg>
+        </button>
+        <p class="form-invitation">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="#" class="modal-form">
+            <label class="modal-form-field">
+                Имя
+                <span class="modal-form-input-wrapper">
+                    <input type="text" name="client-name" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use href="./images/sprite.svg#icon-form-person"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="modal-form-field">
+                Телефон
+                <span class="modal-form-input-wrapper">
+                    <input type="tel" name="client-phone" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use href="./images/sprite.svg#icon-form-phone"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="modal-form-field">
+                Почта
+                <span class="modal-form-input-wrapper">
+                    <input type="email" name="client-mail" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use href="./images/sprite.svg#icon-form-email"></use>
+                    </svg>
+                </span>
+            </label>
+            <label class="modal-form-field">
+                Комментарий
+                <textarea name="client-masage" class="modal-form-massage" placeholder="Введите текст"></textarea>
+            </label>
+            <input id="user-policy" type="checkbox" name="client-policy" value="accept-policy"
+                class="modal-form-policy visually-hidden">
+            <label for="user-policy" class="modal-form-policy-text">Соглашаюсь с рассылкой и принимаю <a href="#"
+                    class="modal-form-policy-link">Условия договора</a></label>
+            <button type="submit" class="modal-form-button">Отправить</button>
+        </form>
+    </div>
+</div>
 <!--Footer-->
     <footer class="footer">
         <div class="container">
@@ -384,18 +434,19 @@
                     </li>
                 </ul>
             </div>
-            </div>
-            </footer>
-            <!--backdrop-->
-            <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                    <button type="button" class="close-button" data-modal-close>
-                        <svg class="close-button-icon">
-                            <use href="./symbol-defs.svg#"></use>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+            <form action="#" class="subscription-form">
+                <p class="subscription-form-title">Подпишитесь на рассылку</p>
+                <label class="subscription-form-field">
+                    <input type="email" name="client-mail" class="subscription-form-input" placeholder="E-mail">
+                </label>
+                <button type="submit" class="subscription-form-button">
+                    Подписаться
+                    <svg class="sibscription-form-button-icon">
+                        <use href="./symbol-defs.svg#icon-form-send"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
             </footer>
             <!--Подключение скрипта-->
             <script src="./js/modal.js"></script>
