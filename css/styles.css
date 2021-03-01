@@ -642,6 +642,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background: transparent;
+  color: #ffffff;
   padding-left: 16px;
 }
 
@@ -812,6 +813,22 @@ a {
 }
 
 .modal {
+  position: absolute;
+  min-width: 528px;
+  min-height: 581px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
+  padding: 40px 40px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+/*.modal {
   min-width: 528px;
   min-height: 581px;
   background-color: var(--main-color-dark-backgr);
@@ -824,7 +841,7 @@ a {
   left: 50%;
   padding: 40px;
   transform: translate(-50%, -50%);
-}
+}*/
 
 .close-button-icon {
   width: 18px;
@@ -995,7 +1012,7 @@ a {
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
-  background-image: url(../images/icon_check.svg);
+  background-image: url(../symbol-defs-check.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
@@ -1004,7 +1021,7 @@ a {
 .modal-form-button {
   width: 200px;
   min-height: 50px;
-  background: var(--accent-color);
+  background: var(--accent-color icon-icon-check);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
