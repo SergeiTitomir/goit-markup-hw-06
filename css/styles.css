@@ -804,7 +804,6 @@ a {
 /* ============== END PORTFOLIO ============== */
 
 /* ============== BACKDROP ============== */
-
 /* ==Modal window==*/
 .backdrop {
   position: fixed;
@@ -1027,5 +1026,3 @@ a {
   opacity: 1;
   outline: 2px solid #ffffff;
 }
-
-/* ============== BACKDROP END ============== */
