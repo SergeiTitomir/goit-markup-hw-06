@@ -6,6 +6,7 @@
   --heading-color: #212121;
   --main-color: #757575;
   --main-color-dark-backgr: #ffffff;
+  --button-text-color: #ffffff;
   --social-link-background-dark: rgba(255, 255, 255, 0.1);
   --social-link-color: #afb1b8;
   --backgr-color-first: #2f303a;
@@ -15,6 +16,8 @@
   --card-set-specialization: 30px;
   --card-set-our-command: 30px;
   --card-set-portfolio: 30px;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-duration: 250ms;
 }
 
 body {
