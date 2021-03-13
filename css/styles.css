@@ -231,10 +231,6 @@ a {
 
 /* ============== HERO SECTION ============== */
 
-/*.hero-section {
-  background-color: var(--backgr-color-first);
-}*/
-
 .hero-section > .container {
   /*background-color: var(--backgr-color-first);*/
   flex-direction: column;
@@ -260,21 +256,7 @@ a {
   color: var(--main-color-dark-backgr);
   margin-bottom: 30px;
 }
-/*
-.hero-section > .container {
-  flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  width: 1600px;
-  background-image: linear-gradient(
-      var(--hero-gradient-color),
-      var(--hero-gradient-color)
-    ),
-    url(../source_images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-*/
+
 .hero-button {
   font-weight: 500;
   font-size: 16px;
